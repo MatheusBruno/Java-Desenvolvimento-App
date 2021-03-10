@@ -3,9 +3,9 @@ package biblioteca;
 
 
 public class Livro {
+    int ano;
     String titulo;
     String autor;
-    int ano;    
     private int data;
     private int aluguel = 2;
 
@@ -22,8 +22,6 @@ public class Livro {
     public void setAluguel(int aluguel) {
         this.aluguel = aluguel;
     }  
-    
-    //verifica a quantidades de dias a ser alugado e retorna o valor do aluguel
     public int calcDiasAlugado()
     {
         switch(data)
