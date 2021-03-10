@@ -7,7 +7,7 @@ public class MainBiblioteca {
         Scanner ler = new Scanner(System.in);
         Cliente c1 = new Cliente();
         Livro l1 = new Livro();=
-        System.out.println("*******INFORMAÇÕES DO CLIENTE*******");
+        System.out.println("INFORMAÇÕES DO CLIENTE");
         System.out.println("Digite seu nome: ");
         c1.nome = ler.nextLine();
         
@@ -23,7 +23,7 @@ public class MainBiblioteca {
         System.out.println("Digite o Preço do Livro: ");
         c1.setPreco(ler.nextDouble());
         
-        System.out.println("*******INFORMAÇÕES DO LIVRO*******");
+        System.out.println("INFORMAÇÕES DO LIVRO");
         System.out.println("Digite o título: ");
         l1.titulo = ler.next();
         
@@ -39,7 +39,7 @@ public class MainBiblioteca {
         
         System.out.println(c1);
         System.out.println(l1);
-        System.out.println("**************TOTAL**************");
+        System.out.println("TOTAL");
         System.out.println("Livro A vista: R$" + (c1.getPreco() - c1.verificarDesconto()) );
         System.out.println("Total do Aluguel: " + ("R$" + (l1.getAluguel() * l1.getData() ) ) );
         
