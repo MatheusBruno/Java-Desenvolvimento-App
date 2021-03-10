@@ -39,7 +39,7 @@ public class Cliente {
    
     public String toString(){
         return 
-                "********SAÍDA DE DADOS********" + "\n"
+                "SAÍDA DE DADOS" + "\n"
                 + "Nome: " + this.nome + "\n"
                 + "Idade: " + this.idade + " anos\n"
                 + "Telefone: " + this.telefone + "\n"
