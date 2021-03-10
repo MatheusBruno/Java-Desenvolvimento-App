@@ -2,8 +2,6 @@ package biblioteca;
 
 public class Cliente {
 
-    String nome;
-    int idade;
     private int telefone;
     private String cpf;
     private double preco;
@@ -31,10 +29,6 @@ public class Cliente {
 
     public double verificarDesconto() 
     {
-        /*
-        se o cliente tiver 60 anos ou mais,         
-        desconto de 20% na compra do livro á vista
-        */
         if (this.idade >= 60) {
             preco = (preco * 0.2);
         } else {
@@ -42,8 +36,7 @@ public class Cliente {
         }
         return preco;
     }
-    
-    @Override
+   
     public String toString(){
         return 
                 "********SAÍDA DE DADOS********" + "\n"
