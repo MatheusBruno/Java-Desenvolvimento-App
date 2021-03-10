@@ -46,7 +46,7 @@ public class Livro {
     @Override
     public String toString(){
         return 
-                "********SAÍDA DE DADOS********" + "\n"
+                "SAÍDA DE DADOS" + "\n"
                 + "Título: " + this.titulo + "\n"
                 + "Autor: " + this.autor + "\n"
                 + "Ano: " + this.ano + "\n"
