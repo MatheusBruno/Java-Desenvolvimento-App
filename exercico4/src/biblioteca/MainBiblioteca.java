@@ -4,12 +4,9 @@ import java.util.Scanner;
 
 public class MainBiblioteca {
     public static void main(String[] args) {
-        //INSTANCIAMENTO DE CLASSES
         Scanner ler = new Scanner(System.in);
         Cliente c1 = new Cliente();
-        Livro l1 = new Livro();
-        
-        //ENTRADA DE DADOS - SET
+        Livro l1 = new Livro();=
         System.out.println("*******INFORMAÇÕES DO CLIENTE*******");
         System.out.println("Digite seu nome: ");
         c1.nome = ler.nextLine();
@@ -40,9 +37,6 @@ public class MainBiblioteca {
         System.out.println("Digite a quantidade de dias a ser alugado: ");
         l1.setData(ler.nextInt());        
         
-        
-
-        //SAÍDA DE DADOS - 
         System.out.println(c1);
         System.out.println(l1);
         System.out.println("**************TOTAL**************");
